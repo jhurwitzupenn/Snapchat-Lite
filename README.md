@@ -1,2 +1,2 @@
 # Snapchat-Lite
-Lightweight implementation of Snapchat using Parse backend on Heroku
+Lightweight Android implementation of Snapchat using Parse backend on Heroku
