@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageButton
+            style="@style/ImageButton"
+            android:id="@+id/take_new_photo"
+            android:contentDescription="@string/take_new_photo_desc"
+            android:src="@drawable/ic_add_a_photo_white_24dp"/>
+
+
+        <ImageButton
+            style="@style/ImageButton"
+            android:id="@+id/view_messages"
+            android:contentDescription="@string/view_memories_desc"
+            android:src="@drawable/ic_message_white_24dp" />
+
+        <ImageButton
+            style="@style/ImageButton"
+            android:id="@+id/view_memories"
+            android:contentDescription="@string/view_memories_desc"
+            android:src="@drawable/ic_collections_white_24dp" />
+
+        <ImageButton
+            style="@style/ImageButton"
+            android:id="@+id/logout"
+            android:contentDescription="@string/logout_desc"
+            android:src="@drawable/ic_undo_white_24dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

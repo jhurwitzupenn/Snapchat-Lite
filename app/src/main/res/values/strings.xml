@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Snapchat</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="caption_hint">Caption</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="take_new_photo_desc"> Take New Photo </string>
+    <string name="view_messages_desc"> View Messages </string>
+    <string name="view_memories_desc"> View Memories</string>
+    <string name="timer_desc"> Set Timer</string>
+    <string name="logout_desc"> Logout </string>
+    <string name="display_photo_desc"> Image Preview </string>
+    <string name="take_photo_desc"> Take Photo </string>
+    <string name="save_photo_desc"> Save Photo </string>
+    <string name="send_photo_desc"> Send Photo </string>
+    <string name="welcome_dialog">Welcome to Snapchat-Lite!</string>
+    <string name="message_delivery_text">Message from %1$s\nSent at %2$s</string>
+    <string name="toast_signup_err_parse">User already exists!</string>
+    <string name="toast_login_err_parse">No such user exists!</string>
+    <string name="toast_signin_err_no_params">Please enter a valid email/password combination!</string>
+    <string name="toast_saved_photo">Successfully saved photo to Memories!</string>
+    <string name="toast_take_photo_err_no_photo">Please take a photo first!</string>
+    <string name="toast_take_photo_err_already_saved">Already saved that photo!</string>
+    <string name="toast_take_photo_err_no_users">No other users to send to!</string>
+
+    <string name="toast_send_photo">Successfully broadcasted photo!</string>
+
+    <string-array name="timer_strings">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
